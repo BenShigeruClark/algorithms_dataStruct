@@ -15,3 +15,5 @@ function levelWidth(root) {
   }
   return counter;
 }
+
+module.exports = levelWidth;
