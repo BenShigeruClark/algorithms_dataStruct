@@ -13,5 +13,17 @@ class Events {
     }
   }
 
+  trigger(eventName) {
+    if (this.events[eventName]) {
+      for (let cb of events[eventName]) {
+        cb();
+      } 
+    }
+  }
   
+  off(eventName) {
+    delete this.events[eventName];
+  }
 }
+
+module.exports = Events;
