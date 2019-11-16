@@ -26,4 +26,4 @@ function fizzBuzz(n) {
   }
 };
 
-fizzBuzz(100);
+fizzBuzz(15)

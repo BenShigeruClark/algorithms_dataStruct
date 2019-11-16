@@ -26,3 +26,5 @@ function capitalize(str) {
   }
   return words.join(' ');
 }
+
+console.log(capitalize('hello there people'))

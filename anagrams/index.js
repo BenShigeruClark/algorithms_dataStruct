@@ -16,4 +16,6 @@ function cleanString(str) {
   return str.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('');
 }
 
-module.exports = anagrams;
+// module.exports = anagrams;
+
+console.log(anagrams('he', 'eh'))
