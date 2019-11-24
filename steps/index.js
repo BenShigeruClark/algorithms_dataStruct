@@ -33,6 +33,18 @@
 
 // module.exports = steps
 
+function steps(n) {
+  for (let row = 0; row < n; row++) {
+    let stair = '';
 
+    for (let column = 0; column < n; column++) {
+      if (column <= row) {
+        stair += '#';
+      } else {
+        stair += ' ';
+      }
+    }
+  }
+}
 
-steps(10)
+console.log(steps(10))
