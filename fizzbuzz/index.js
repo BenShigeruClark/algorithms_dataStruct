@@ -26,4 +26,5 @@ function fizzBuzz(n) {
   }
 };
 
-fizzBuzz(15)
+
+fizzBuzz(100)
